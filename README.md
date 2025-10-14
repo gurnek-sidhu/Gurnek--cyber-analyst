@@ -46,4 +46,62 @@ Look around the website (enumeration)
 ## Reflection
 This task reinforced the importance of careful enumeration — most successful attacks begin with finding small oversights like exposed directories or misconfigured files. Next steps: learn privilege escalation techniques and practice safe reporting.
 
+# Defensive Security Intro
+**TryHackMe Room(s):** Replace with exact room names (e.g., `Blue Team Basics`)  
+**Date completed:** 2025-10-19  
+**Evidence:** `evidence/defensive_syslog.txt`, `evidence/defensive_ufw_status.txt`, `evidence/defensive_monitoring.png`
+
+## Summary
+This activity introduced defensive concepts such as logging, host-based monitoring, basic firewall configuration, and how to interpret security logs for indicators of compromise.
+
+## Objectives
+- Understand the role of logs and monitoring in detection.  
+- Learn basic host hardening / firewall settings.  
+- Perform simple log analysis to identify suspicious events.
+
+## Tools & Concepts
+- Syslog / journalctl (log sources)
+- UFW / iptables (basic host firewall)
+- File integrity monitoring (conceptual)
+- SIEM basics (Splunk/ELK concepts; screenshots of searches saved as evidence)
+
+## Methodology (step-by-step)
+1. Reviewed syslog entries from the lab VM and saved suspicious lines to `evidence/defensive_syslog.txt`.  
+2. Checked firewall status and documented configuration: `sudo ufw status verbose > evidence/defensive_ufw_status.txt`.  
+3. Performed basic log queries in the lab SIEM (or used Splunk/ELK playground) and saved screenshots to `evidence/defensive_monitoring.png`.  
+4. Wrote brief remediation suggestions for observed issues (e.g., disable unused services, enforce strong SSH configs).
+
+## Results
+- Identified suspicious login attempts in syslog (example saved).  
+- Documented the host firewall state and suggested hardening steps.  
+- Saved SIEM query screenshot showing a sample alert.
+
+## Reflection
+Understanding the defender's view clarified how detection and timely response stop attackers. Next steps: practice writing SIEM queries, learn alert tuning, and explore host-based monitoring (OSSEC, Wazuh).
+
+# Careers in Cyber
+**TryHackMe Room(s):** Replace with exact room name(s) (e.g., `Careers in Cyber`)  
+**Date completed:** 2025-10-19  
+**Evidence:** `evidence/careers_notes.txt`, `evidence/careers_resources.pdf`
+
+## Summary
+This activity covered career pathways, required skills, learning resources, certifications, and practical next steps to build a career in cybersecurity.
+
+## Key Takeaways
+- Common entry roles: SOC Analyst, Junior Penetration Tester, Incident Responder, Security Operations.  
+- Recommended certifications/learning: CompTIA Security+ (intro), eJPT/OSCP (offensive), CSX/Splunk/Certified SOC Analyst (defensive).  
+- Skills to develop: Linux CLI, networking fundamentals, scripting (Python/Bash), log analysis, threat-hunting basics.
+
+## Action Plan / Next Steps
+1. Build a GitHub portfolio with documented labs (this repo).  
+2. Complete a certification roadmap (Security+ → eJPT → OSCP or equivalent).  
+3. Join local/online CTFs and community groups; network via LinkedIn and local meetups.  
+4. Prepare an interview-focused project: explain methodology, evidence, and mitigation.
+
+## Evidence included
+- `evidence/careers_notes.txt` — notes and prioritized learning path.  
+- `evidence/careers_resources.pdf` — saved career resources and links.
+
+## Reflection
+This module helped crystallize a clear path forward: concentrate on foundational skills, build demonstrable artifacts (GitHub + TryHackMe), and target entry-level roles with project-based evidence.
 
