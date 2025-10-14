@@ -85,6 +85,7 @@ Understanding the defender's view clarified how detection and timely response st
 **TryHackMe Room(s):** Replace with exact room name(s) (e.g., `Careers in Cyber`)  
   
 **Evidence:** `https://tryhackme.com/room/careersincyber?sharerId=68ee22ad92b9ec48c3b6cce9
+<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/8f1aca8f-b72d-42b4-9449-5a00bf8f9b64" />
 
 ## Summary
 This activity covered career pathways, required skills, learning resources, certifications, and practical next steps to build a career in cybersecurity.
@@ -100,9 +101,6 @@ This activity covered career pathways, required skills, learning resources, cert
 3. Join local/online CTFs and community groups; network via LinkedIn and local meetups.  
 4. Prepare an interview-focused project: explain methodology, evidence, and mitigation.
 
-## Evidence included
-- `evidence/careers_notes.txt` — notes and prioritized learning path.  
-- `evidence/careers_resources.pdf` — saved career resources and links.
 
 ## Reflection
 This module helped crystallize a clear path forward: concentrate on foundational skills, build demonstrable artifacts (GitHub + TryHackMe), and target entry-level roles with project-based evidence.
