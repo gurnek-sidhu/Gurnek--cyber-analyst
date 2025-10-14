@@ -19,7 +19,9 @@ This repository documents three TryHackMe activities completed for ITECH1502:
 **TryHackMe Room:**
 offensive security introduction  
   
-**Evidence:** 
+**Evidence:** <img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/9637b10d-a400-463b-81a1-b3113c6d1958" />
+
+](url)
 
 ## Summary
 This activity focused on reconnaissance, scanning, enumeration, and basic exploitation in a lab environment. I used Nmap, Gobuster, and manual HTTP requests to find vulnerabilities and retrieve the room flag(s).
