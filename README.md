@@ -49,8 +49,7 @@ This task reinforced the importance of careful enumeration — most successful a
 # Defensive Security Intro
 **TryHackMe Room(s):** Replace with exact room names (e.g., `Blue Team Basics`)  
 **Date completed:** 2025-10-19  
-**Evidence:** `evidence/defensive_syslog.txt`, `evidence/defensive_ufw_status.txt`, `evidence/defensive_monitoring.png`
-
+**Evidence:** https://tryhackme.com/room/defensivesecurityintroQR?sharerId=68ee22ad92b9ec48c3b6cce9
 ## Summary
 This activity introduced defensive concepts such as logging, host-based monitoring, basic firewall configuration, and how to interpret security logs for indicators of compromise.
 
