@@ -19,7 +19,7 @@ This repository documents three TryHackMe activities completed for ITECH1502:
 **TryHackMe Room:**
 offensive security introduction  
   
-**Evidence:** `evidence/offensive_nmap.txt`, `evidence/offensive_gobuster.txt`, `evidence/offensive_flag.png`
+**Evidence:** 
 
 ## Summary
 This activity focused on reconnaissance, scanning, enumeration, and basic exploitation in a lab environment. I used Nmap, Gobuster, and manual HTTP requests to find vulnerabilities and retrieve the room flag(s).
@@ -45,3 +45,5 @@ Look around the website (enumeration)
 
 ## Reflection
 This task reinforced the importance of careful enumeration — most successful attacks begin with finding small oversights like exposed directories or misconfigured files. Next steps: learn privilege escalation techniques and practice safe reporting.
+
+
