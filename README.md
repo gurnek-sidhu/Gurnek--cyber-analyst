@@ -48,7 +48,7 @@ This task reinforced the importance of careful enumeration — most successful a
 
 # Defensive Security Intro
 **TryHackMe Room(s):** Replace with exact room names (e.g., `Blue Team Basics`)  
-**Date completed:** 2025-10-19  
+ 
 **Evidence:** https://tryhackme.com/room/defensivesecurityintroQR?sharerId=68ee22ad92b9ec48c3b6cce9
 ## Summary
 This activity introduced defensive concepts such as logging, host-based monitoring, basic firewall configuration, and how to interpret security logs for indicators of compromise.
@@ -80,8 +80,8 @@ Understanding the defender's view clarified how detection and timely response st
 
 # Careers in Cyber
 **TryHackMe Room(s):** Replace with exact room name(s) (e.g., `Careers in Cyber`)  
-**Date completed:** 2025-10-19  
-**Evidence:** `evidence/careers_notes.txt`, `evidence/careers_resources.pdf`
+  
+**Evidence:** `https://tryhackme.com/room/careersincyber?sharerId=68ee22ad92b9ec48c3b6cce9
 
 ## Summary
 This activity covered career pathways, required skills, learning resources, certifications, and practical next steps to build a career in cybersecurity.
