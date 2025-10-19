@@ -2,7 +2,7 @@
 # ITECH1502 — TryHackMe Project
 **Author:** Gurnekpreet Kaur  
 **FedUni email:** gurnekpreetk@students.federation.edu.au  
-**Date:** 2025-10-19
+
 
 ## Project Overview
 This repository documents three TryHackMe activities completed for ITECH1502:
@@ -36,9 +36,9 @@ Look around the website (enumeration)
 
 ## Methodology (step-by-step)
 
-3. Ran Gobuster to find directories: gobuster -u http://fakebank.thm -w wordlist.txt dir  
-4. Manually inspected discovered paths in a browser and discovered secret fakeBank website page for money transfer.
-5. Retrieved the flag and saved a screenshot 
+1. Ran Gobuster to find directories: gobuster -u http://fakebank.thm -w wordlist.txt dir  
+2. Manually inspected discovered paths in a browser and discovered secret fakeBank website page for money transfer.
+3. Retrieved the flag and saved a screenshot 
 
 ## Results
 -  transfered $2000 from bank account 2276 to your account (account number 8881). 
@@ -104,4 +104,7 @@ This activity covered career pathways, required skills, learning resources, cert
 
 ## Reflection
 This module helped crystallize a clear path forward: concentrate on foundational skills, build demonstrable artifacts (GitHub + TryHackMe), and target entry-level roles with project-based evidence.
+
+## Report
+
 
